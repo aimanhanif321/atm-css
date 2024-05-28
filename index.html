@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="atm-container">
+      <h1>Welcom to ATM machine</h1>
+      <div id="btn-container">
+        <button id="checkBalance" onclick="checkBalance()">Check Balance</button>
+        <button id="withdraw" onclick="withdraw()">Withdraw</button>
+      </div>
+      <input type="number" id="input" placeholder="Enter Your Amount" min="1" />
+      <div id="output"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
